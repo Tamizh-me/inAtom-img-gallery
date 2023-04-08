@@ -33,7 +33,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>inAtom Gallery</title>
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/inatom/image/upload/v1680952295/files/dvosgaguyi6j6i4pczzk.png"
+          content="https://asset.cloudinary.com/inatom/57e4ccaa5562f885c8985d33315ef5b9"
         />
         <meta
           name="twitter:image"
