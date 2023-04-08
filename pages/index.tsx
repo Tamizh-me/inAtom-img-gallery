@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'https://tamizh.xyz/inAtom/inatomm.png'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useRef } from 'react'
@@ -33,7 +33,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>inAtom Gallery</title>
         <meta
           property="og:image"
-          content="https://asset.cloudinary.com/inatom/57e4ccaa5562f885c8985d33315ef5b9"
+          content="https://tamizh.xyz/inAtom/inatomm.png"
         />
         <meta
           name="twitter:image"
