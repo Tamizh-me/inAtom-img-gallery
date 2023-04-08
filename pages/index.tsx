@@ -30,14 +30,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>inAtom Gallery</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://res.cloudinary.com/inatom/image/upload/v1680952295/files/dvosgaguyi6j6i4pczzk.png"
         />
         <meta
           name="twitter:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content=""
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
@@ -62,16 +62,16 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               2022 Event Photos
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Our incredible Next.js community got together in San Francisco for
-              our first ever in-person conference!
+              We share our memorable work and stories here.
+              Join our <a href="https://discord.gg/Hgx4JFYF3Z">Discord</a> Community to learn more about us.
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application"
+              href="https://inatom.space"
               target="_blank"
               rel="noreferrer"
             >
-              Clone and Deploy
+              Let's Go 🚀
             </a>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
@@ -102,34 +102,34 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Thank you to{' '}
+        Checkout our socials{' '}
         <a
-          href="https://edelsonphotography.com/"
+          href="https://www.instagram.com/inatom.in/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Josh Edelson
+          Instagram
         </a>
         ,{' '}
         <a
-          href="https://www.newrevmedia.com/"
+          href="https://www.linkedin.com/company/inatom"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Jenny Morgan
+          Twitter
         </a>
         , and{' '}
         <a
-          href="https://www.garysextonphotography.com/"
+          href="https://twitter.com/inatomedu"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Gary Sexton
+          LinkedIn
         </a>{' '}
-        for the pictures.
+        Thanks🤞.
       </footer>
     </>
   )
