@@ -25,7 +25,7 @@ export default function Logo() {
         x="87"
         y="20"
         fill="currentColor"
-        fontSize="14"
+        fontSize="10"
         fontFamily="bank-gothic"
         fontWeight="bold"
       >.SPACE
