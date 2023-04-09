@@ -22,10 +22,10 @@ export default function Logo() {
       >
         INATOM</text>
       <text
-        x="97"
+        x="87"
         y="20"
         fill="currentColor"
-        fontSize="12"
+        fontSize="14"
         fontFamily="bank-gothic"
         fontWeight="bold"
       >.SPACE
