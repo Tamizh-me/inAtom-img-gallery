@@ -17,20 +17,18 @@ export default function Logo() {
         y="20"
         fill="currentColor"
         fontSize="20"
-        fontFamily="sans-serif"
+        fontFamily="bank-gothic"
         fontWeight="bold"
       >
-        INATOM
-      </text>
+        INATOM</text>
       <text
         x="97"
         y="20"
         fill="currentColor"
-        fontSize="10"
-        fontFamily="sans-serif"
+        fontSize="12"
+        fontFamily="bank-gothic"
         fontWeight="bold"
-      >
-        .SPACE
+      >.SPACE
       </text>
     </svg>
   );
